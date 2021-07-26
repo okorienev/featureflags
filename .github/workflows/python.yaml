@@ -32,7 +32,6 @@ jobs:
         python -m pip install --no-deps protobuf/
         python -m pip install hiku
         python -m pip install grpclib
-        python -m pip install grpcio
         python -m pip install protobuf
     - name: Run tests
       run: |
