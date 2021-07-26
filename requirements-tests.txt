@@ -4,8 +4,6 @@
 #
 #    pip-compile --extra-index-url=https://pypi.evo.dev/platform/pypi/ --index-url=https://pypi.evo.dev/root/pypi/ requirements-tests.in
 #
---index-url https://pypi.evo.dev/root/pypi/
---extra-index-url https://pypi.evo.dev/platform/pypi/
 
 attrs==19.3.0             # via pytest
 faker==4.0.0              # via -r requirements-tests.in
